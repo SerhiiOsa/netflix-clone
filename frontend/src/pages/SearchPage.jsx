@@ -4,7 +4,7 @@ import toast from 'react-hot-toast';
 import axios from 'axios';
 
 import { useContentStore } from '../store/content';
-import NavBar from '../components/Navbar';
+import NavBar from '../components/NavBar';
 import { ORIGINAL_IMG_BASE_URL } from '../utils/constants';
 import { Link } from 'react-router-dom';
 
