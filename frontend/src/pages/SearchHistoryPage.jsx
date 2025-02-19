@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Trash } from 'lucide-react';
 
-import NavBar from '../components/Navbar';
+import NavBar from '../components/NavBar';
 import { SMALL_IMG_BASE_URL } from '../utils/constants';
 import { formatDate } from '../utils/dateFunction';
 import toast from 'react-hot-toast';
