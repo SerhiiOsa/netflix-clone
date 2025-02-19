@@ -5,7 +5,7 @@ import routes from './routes/index.js';
 import connectMongoDB from './db/connectMongoDB.js';
 import { ENV_VARS } from './config/envVars.js';
 
-const __dir = path.resolve();
+const __dirname = path.resolve();
 const app = new express();
 const PORT = ENV_VARS.PORT;
 
